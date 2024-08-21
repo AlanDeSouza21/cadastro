@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#Titulo{
+    font-family: "inter";
+    font-size: 5vh;
+    color: rgb(69, 69, 232);
+}
+
+section{
+    display: flex;
+    flex-direction: column; /* Disposição vertical dos elementos */
+    align-items: center;    /* Centralizar os elementos na horizontal */
+    justify-content: flex-start;/* Alinhar os elementos ao topo da seção */
+    min-height: 100vh;          /* Altura mínima da seção ocupando a altura total da viewport */
+    background-color: white; /* Cor de fundo opcional */
+}
+
+section div {
+    text-align: center; /* Centralizar o texto dentro dos parágrafos */
+    width: 100%; /* Opcional: faz com que o parágrafo ocupe toda a largura da seção */
+}
+
+#escritaRES {
+    text-align: center; /* Centralizar o texto dentro da div */
+    width: 20%; /* Definir a largura da div */
+    margin: 0 auto; /* Centralizar a div dentro do contêiner pai */
+    max-height: 60vh; /* 60% da altura da janela de visualização */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+    
+}
+
+#escritaRES table {
+    margin: 0 auto; /* Centralizar a tabela dentro da div */
+    border-spacing: 0; /* Remove o espaçamento entre as células */
+}
+
+#escritaRES table td, #escritaRES table th {
+    border: 1px solid black; /* Espessura das linhas das células */
+    padding: 6px; /* Espaçamento interno das células */
+}
+
+input[type="text"] {
+    width: 45vh;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+input[type="number"]{
+    width: 15vh;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+#cadastrar {
+    background-color: white;
+    font-family: "inter";
+    color: rgb(69, 69, 232);
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: rgb(69, 69, 232);
+    font-size: 16px; /* Aumenta o tamanho do texto */
+    width: 15vh; /* Largura do botão */
+    height: 4vh; /* Altura do botão */
+    transition: color 1s ease;
+}
+
+#cadastrar:hover {
+    background-color: rgb(69, 69, 232);
+    color: white;
+    border-width: 0;
+}
+
+#cadastrar:active {
+    background-color: white;
+    color: black;
+}
+
+#cadastrar_novo{
+    background-color: white;
+    color: green;
+    font-family: "inter";
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: green;
+    font-size: 16px; /* Aumenta o tamanho do texto */
+    width: 15vh; /* Largura do botão */
+    height: 4vh; /* Altura do botão */
+    transition: color 1s ease;
+}
+
+#cadastrar_novo:hover {
+    background: linear-gradient(to bottom, rgb(28, 186, 28), green);
+    color: white;
+    border-width: 0;
+}
+
+#cadastrar_novo:active {
+    background: linear-gradient(to bottom, green, rgb(28, 186, 28));
+    color: black;
+}

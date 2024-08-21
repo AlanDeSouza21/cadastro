@@ -1,0 +1,2 @@
+Em resumo a aplicação pega todos os dados digitados pelo usuário no html e manda para o script, no script são feitas as devidas restrições para evitar erros no processo e
+logo em seguida inicia o processo de criação da tabela html e ordenação dos dados, a formatação visual é feita inteiramente no arquivo css com alguns detalhes alterados em html
